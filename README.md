@@ -1,41 +1,24 @@
-Weather App
+# Weather App
+This is a simple weather application built using Next.js and TypeScript. The app fetches real-time weather data, displays the current weather, and shows a 5-day forecast. It also supports dark mode and stores the last searched city in localStorage.
 
-This is a Next.js weather application that allows users to enter a city name and view current weather details (temperature, weather conditions, and a representative icon using React Icons).
+## Features
+Fetch current weather data for a city
+Display a 5-day weather forecast
+Store the last searched city using localStorage
+Dark mode support
+Responsive design with horizontal weather list
 
-Features
+# Installation & Setup
+Prerequisites
 
-Fetch Weather Data: Retrieves current weather information from the OpenWeather API.
+Node.js (Recommended version: 16 or later)
+Git (for cloning the repository)
+A valid OpenWeather API key
 
-User Input: Allows users to enter a city name.
-
-Visual Display: Shows temperature, weather conditions, and a weather icon.
-
-Built with Next.js: Uses Next.js for server-side rendering and performance.
-
-React Icons: Uses react-icons for a consistent, customizable icon set.
-
-** Setup Instructions
-Unzip the Project:
-
-Unzip the provided project folder to your desired location.
-Open the Project Folder in Your Terminal:
-
-Navigate to the project folder:
-
-Install Dependencies:
-
-Install all the required dependencies with npm:
- # npm install
-Please do not include # symbol
-
- Configure Environment Variables:
- ## NEXT_PUBLIC_OPENWEATHER_API_KEY=your_actual_api_key_here
- 
- Replace your_actual_api_key_here with your actual API key from OpenWeather.
-
- Run the App in Development Mode:
-
-Start the development server:
-## npm run dev
-
-Open your browser and go to http://localhost:3000 to view the app.
+## Steps to Run the Project
+1. Clone the Repository: git clone https://github.com/sumithactca/Weather_app_nextjs.git
+2. Navigate into the project directory:cd Weather_app_nextjs
+3. Install dependencies:npm install
+4.  Update the OpenWeather API Key:Open the .env.local file in the root directory and replace your_original_api_key_from_OpenWeather_API_website with your actual OpenWeather API key
+5. Run the Application: npm run dev
+The app will be available at http://localhost:3000.
