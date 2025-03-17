@@ -16,8 +16,8 @@ Git (for cloning the repository)
 A valid OpenWeather API key
 
 ## Steps to Run the Project
-1. Clone the Repository: git clone **https://github.com/sumithactca/Weather_app_nextjs.git**
-2. Navigate into the project directory:**cd Weather_app_nextjs**
+1. Clone the Repository: git clone **https://github.com/sumithactca/Weather_app.git**
+2. Navigate into the project directory:**cd Weather_app**
 3. Install dependencies:**npm install**
 4.  Update the OpenWeather API Key:**Open the .env.local file in the root directory and replace your_original_api_key_from_OpenWeather_API_website with your actual OpenWeather API key**
 5. Run the Application: **npm run dev**
