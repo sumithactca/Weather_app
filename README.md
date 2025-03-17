@@ -2,11 +2,11 @@
 This is a simple weather application built using Next.js and TypeScript. The app fetches real-time weather data, displays the current weather, and shows a 5-day forecast. It also supports dark mode and stores the last searched city in localStorage.
 
 ## Features
-Fetch current weather data for a city
-_Display a 5-day weather forecast
-_Store the last searched city using localStorage
-_Dark mode support
-_Responsive design with horizontal weather list
+_ Fetch current weather data for a city
+_ Display a 5-day weather forecast
+_ Store the last searched city using localStorage
+_ Dark mode support
+_ Responsive design with horizontal weather list
 
 # Installation & Setup
 Prerequisites
